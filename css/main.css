@@ -1,0 +1,242 @@
+/*------Header--------*/
+.header{
+	height: 80px;
+	
+	
+}
+
+input#contact1 {
+    width: 600px;
+    margin-bottom: 20px;
+    }
+    
+.btn-primary{
+	border-radius: 18px;
+}
+h5{
+	font-size: 14px;
+    width: 500px;
+    margin-top: 20px;
+    word-spacing: 7px;
+    padding: 10px;
+    border: 1px solid darkred;
+}
+
+button.btn.btn-dark.mb-2 {
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 50px;
+    margin-right: 50px;
+}
+.photo{
+	margin-top: 40px;
+}
+
+.container-fluid{
+	
+	height: 600px;
+	background-image: url("../images/bg.png");
+}
+.logo{	
+	margin-top: 6px;
+}
+.imgLogo{
+	display: inline-block;
+	max-width: 100%;
+	height: auto;
+}
+.colastest{
+	font-size: 42px;
+}
+.systitle{
+	margin-left: 35px;
+	/*padding: 10px;*/	
+	font-weight: bold;
+	font-family:  "Times New Roman", Georgia, Serif;
+	font-size: 34px;
+	color: #FFF;
+}
+.navbutton{
+	margin: 0 20px;
+	margin-right: 10px;
+	padding: 5px !important;
+	width: 80px;
+	height: 35px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #333;	
+	background-color: #dfefef;
+	border-color: #ccc;
+	border: 1px solid transparent !important;
+	border-radius: 4px;
+}
+.check-in-text{
+	color:#fff;
+}
+
+/*------Header End--------*/
+
+/*------------Main Content----------*/
+.main{
+	min-height: 463px;	
+	height: 524px;
+	float: left;
+	width: 80%;
+}
+.subtitle{
+	margin-top: 20px;
+	/*font-size: 1.5em;
+	font-weight: bold;*/
+	color:black;
+}
+.content-list{
+	list-style-type:none;
+	list-style-position:outside;
+}
+/*.list-title{
+	font-weight: bold;
+	
+	}*/
+	.scroller {
+		height: 520px;
+		overflow-x: hidden;
+		overflow-y: auto;
+	}
+	#scroller {
+		height: 500px;
+		overflow-x: hidden;
+		overflow-y: auto;
+	}
+	.col-md-12 {
+		width: 100%;
+
+	}
+	table {
+		border-collapse: collapse;
+		width: 100%;
+	}
+	.tblakyal{
+		width: 100px;
+	}
+	th, td {
+		text-align: left;
+		padding: 8px;
+		width: 30px;
+	}
+
+	tr:nth-child(even){background-color: #f2f2f2}
+
+	th {
+		background-color: #4CAF50;
+		color: white;
+
+	}
+
+	table.fixed {table-layout:fixed; width:900px; overflow-x: auto;}/*Setting the table width is important!*/
+	table.fixed th {overflow: hidden; width:50px; text-align: center;}/*Setting the width of column 1.*/
+	table.fixed th.name {width:200px;}
+	table.fixed th.tableid {width:80px;}
+	table.fixed th.colwidth {width:150px; text-align: center;}
+
+	ul { 
+
+	}
+	ul li { 
+
+		font-size: 15px;
+		color:#000;
+	}
+	ul li ul li { 
+		color:#000;
+		font-size: 12px;
+	}
+
+	.btn-link {
+		color: #333;
+		background-color:  #00cc99;
+		border-color: #ccc;
+		text-decoration: none;
+	}
+	
+	.btn-search, .btn-search:hover, .btn-search:focus{
+		background: #0099cc;
+		color: #ffffff;
+		font-weight: bold;
+		width: 80px;
+	}
+	.btn-submit, .btn-submit:hover, .btn-submit:focus{
+		width: 80px;
+		background: #449D44;
+		color: #ffffff;
+		font-weight: bold;
+		
+	}
+	.btn-edit, .btn-edit:hover, .btn-edit:focus {
+		width: 80px;
+		background: #449D44;
+		color: #ffffff;
+		font-weight: bold;
+		
+	}
+	.btn-delete, .btn-delete:hover, .btn-delete:focus{
+		width: 80px;
+		background: #C9302C;
+		color: #ffffff;
+		font-weight: bold;
+	}
+
+	.btn-row{
+	
+		height:26px;
+		padding-top:2px;
+		margin-top:0px;
+	}
+	/*---------------sidebar-------------*/
+	.sidebar{
+		background-color: #cccccc;
+		height: 523px;		
+		padding: 10px;	
+	}
+	.btn-group-vertical {
+		position: relative;
+		display: inline-block;
+		vertical-align: middle;
+		width: 100%;
+	}
+	.panel-heading{
+		padding: 0px 0px!important;
+	}
+	.btn-sm{
+		font-size: 15px !important;
+	}
+	/*------------Main Content End----------*/
+
+	/*----------Footer----------*/
+	.footer{
+		height: 37px;
+		background-color: #008DB0;
+		text-align: center;
+		/*line-height: 50px;*/
+		font-weight: bold;
+		color: #FFF;
+		padding-top:13px;
+		background-image: -webkit-gradient(linear, left top, left bottom, from(#3093c7), to(#008DB0));
+	}
+	/*----------Footer End----------*/
+
+	/*submenu*/
+	.panel-margin{
+		margin-bottom: 2px;
+	}
+	.table, .form-group{
+		margin-bottom: 10px;
+	}
+	.panel{
+margin-bottom: 5px;
+	}
+/* add in 2017/02/21 for accordian item size*/
+	.accordian-list-item {
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}

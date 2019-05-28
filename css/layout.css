@@ -1,0 +1,56 @@
+
+.navbar-default {
+  background-color: #66b3ff !important;/*change navbar background color*/
+  border-color: #e7e7e7;
+  height: 80px;
+  color: #777;
+}
+.navbar-text{
+	color: #777;
+}
+
+div.logo{
+	/*border: 1px solid #ccc;*/
+	padding-top: 5px;
+
+}
+.systitle{
+	padding: 10px;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.navbutton{
+	margin: 15px;
+	width: 80px;
+	height: 50px;
+}
+.img-responsive{
+	display: inline-block !important;
+}
+.sidebar{
+	
+	background-color: #cccccc;
+	padding: 20px;
+	margin-top: 20px;
+}
+.sysmenu{
+	margin-top: 80px;
+	height: 450px;	
+	background-color:#FFF;
+}
+.btn-sysmenu{
+	margin-top: 20px;
+	width: 500px;
+	height: 150px;
+	background-color:  #6699ff;
+	text-align: center;
+	line-height: 120px;
+
+}
+.footer{	
+	height: 80px;
+	background-color: #0099ff;
+	text-align: center;
+	line-height: 70px;
+}

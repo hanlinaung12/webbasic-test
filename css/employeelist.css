@@ -1,0 +1,57 @@
+/*home page css*/
+.block-container{
+	padding: 32px;
+
+}
+
+.block{
+	font-size:  25px;
+	font-weight: bolder;
+	height: 200px;
+	background-color: #4597F5;
+	color: #fff;
+	text-align: center;
+	padding:70px;
+	border: 1px solid gray;
+	border-radius: 10px;
+	margin-bottom: 30px;
+}
+.block-container a{
+	text-decoration: none;
+}
+/*employeelist*/
+.search-form{
+	margin-top: 10px;
+}
+ .page-link{
+ 	margin-bottom: 10px;
+ }
+ .table-reponsive{
+ 	width: 90%;
+ }
+ /* DeptReg */
+ .panle-title{
+ 	padding: 5px;
+ 	min-height: 30px;
+ }
+
+ .employee-record-location {
+ 	padding-left: 130px;
+ 	
+
+ }
+
+ .store-record-location {
+	padding-left: 28px; 	
+ }
+
+ /* search data not found text color */
+ .text-color{
+ 	color: #ff0000;
+ }
+/* previous or next button action */
+ .not-active {
+ 	pointer-events: none;
+    cursor: default;
+ }
+

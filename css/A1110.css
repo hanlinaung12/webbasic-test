@@ -1,0 +1,27 @@
+.linespace{
+	min-height: 30px;
+}
+
+textarea {
+  resize: horizontal; /* user can resize vertically, but width is fixed */
+  height:30px;
+}
+
+input[type="text"],input[type="Date"],select {
+    width: 250px;
+}
+
+.boxsize{
+ width: 250px;
+}
+
+textarea{ 
+  width: 650px!important; 
+  min-width:300px!important; 
+  max-width:660px!important; 
+
+  height:30px!important; 
+  min-height:30px!important;  
+  max-height:30px!important;
+
+}
